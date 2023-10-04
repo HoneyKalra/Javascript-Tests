@@ -23,7 +23,8 @@ function arraySort(arr,orderOfSort="ascending"){
                 isSwapped = true;
             }
          }
-         if(!isSwapped)//this will help breaking the loop if isSwapped is false{
+         if(!isSwapped)//this will help breaking the loop if isSwapped is false
+         {
             break;
          }   
     }
